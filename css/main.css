@@ -1,0 +1,56 @@
+.well {
+	background: white;
+}
+
+.btn {
+	text-transform: uppercase;
+	margin-bottom: .5em;
+}
+
+.row {
+	margin-bottom: .5em;
+}
+
+@media (min-width: 750px) {
+	img {
+		max-width: 43em !important;
+	}
+}
+
+.container {
+	margin-bottom: 4.5em;
+	@media (min-width: 992px) {
+		// width: 750px;
+	}
+}
+
+.form-inline {
+	margin-bottom: .5em;
+}
+
+.form-group.required label:after {
+  content:"*";
+  color: #ff2a7f;
+}
+
+select {
+	margin-bottom: .5em;
+}
+
+.jumbotron {
+	background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.jumbotron .container {
+	margin-bottom: 2.5em;
+}
+
+input.form-control[disabled] {
+	display: none;
+}
+
+label {
+	display: block;
+}
