@@ -7,7 +7,6 @@ $(document).ready(function() {
 		$('.copyText').addClass('flash');
 	    e.clearSelection();
 		setTimeout(function(){
-			console.log('this');
 		  $('.copyTextbtn').addClass('btn-primary').removeClass('btn-success').text('Copy to Clipboard');
 		}, 3000);
 	});
